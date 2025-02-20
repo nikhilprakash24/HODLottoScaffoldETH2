@@ -25,6 +25,10 @@ export const menuLinks: HeaderMenuLink[] = [
     href: "/debug",
     icon: <BugAntIcon className="h-4 w-4" />,
   },
+  {
+    label: "Custom Page",  // New Tab
+    href: "/custom",       // Link to custom page
+  },
 ];
 
 export const HeaderMenuLinks = () => {
